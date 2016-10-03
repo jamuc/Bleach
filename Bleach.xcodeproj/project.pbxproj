@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D7101111DA26648006826AE /* BleachURLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7101101DA26648006826AE /* BleachURLS.swift */; };
 		7D716C041DA255D400B54A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D716C031DA255D400B54A0F /* AppDelegate.swift */; };
-		7D716C061DA255D400B54A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D716C051DA255D400B54A0F /* ViewController.swift */; };
 		7D716C091DA255D400B54A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D716C071DA255D400B54A0F /* Main.storyboard */; };
 		7D716C0B1DA255D400B54A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D716C0A1DA255D400B54A0F /* Assets.xcassets */; };
 		7D716C0E1DA255D400B54A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D716C0C1DA255D400B54A0F /* LaunchScreen.storyboard */; };
+		7DDFDF791DA2581F00C446A3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFDF781DA2581F00C446A3 /* ImageViewController.swift */; };
+		7DDFDF7B1DA25A0200C446A3 /* BleachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFDF7A1DA25A0200C446A3 /* BleachViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D7101101DA26648006826AE /* BleachURLS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleachURLS.swift; sourceTree = "<group>"; };
 		7D716C001DA255D400B54A0F /* Bleach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bleach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D716C031DA255D400B54A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D716C051DA255D400B54A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D716C081DA255D400B54A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D716C0A1DA255D400B54A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D716C0D1DA255D400B54A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D716C0F1DA255D400B54A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDFDF781DA2581F00C446A3 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		7DDFDF7A1DA25A0200C446A3 /* BleachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleachViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		7D716C021DA255D400B54A0F /* Bleach */ = {
 			isa = PBXGroup;
 			children = (
-				7D716C031DA255D400B54A0F /* AppDelegate.swift */,
-				7D716C051DA255D400B54A0F /* ViewController.swift */,
+				7DDFDF771DA2577300C446A3 /* Support Files */,
 				7D716C071DA255D400B54A0F /* Main.storyboard */,
+				7DDFDF7A1DA25A0200C446A3 /* BleachViewController.swift */,
+				7DDFDF781DA2581F00C446A3 /* ImageViewController.swift */,
+				7D7101101DA26648006826AE /* BleachURLS.swift */,
 				7D716C0A1DA255D400B54A0F /* Assets.xcassets */,
+			);
+			path = Bleach;
+			sourceTree = "<group>";
+		};
+		7DDFDF771DA2577300C446A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D716C031DA255D400B54A0F /* AppDelegate.swift */,
 				7D716C0C1DA255D400B54A0F /* LaunchScreen.storyboard */,
 				7D716C0F1DA255D400B54A0F /* Info.plist */,
 			);
-			path = Bleach;
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D716C061DA255D400B54A0F /* ViewController.swift in Sources */,
+				7D7101111DA26648006826AE /* BleachURLS.swift in Sources */,
+				7DDFDF791DA2581F00C446A3 /* ImageViewController.swift in Sources */,
 				7D716C041DA255D400B54A0F /* AppDelegate.swift in Sources */,
+				7DDFDF7B1DA25A0200C446A3 /* BleachViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				7D716C141DA255D400B54A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
